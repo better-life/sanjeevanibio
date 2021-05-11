@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import MainLayout from '../components/layouts/main'
+import MainLayout from '../components/layouts/Main'
 
 const EmptyLayout = ({ children }) => {
   return <>{children}</>
