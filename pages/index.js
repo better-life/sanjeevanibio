@@ -3,9 +3,9 @@ import Hero from '../components/Hero'
 
 const CategoryColumn = ({ items }) => {
   return (
-    <nav className='flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 uppercase space-y-2.5 '>
+    <nav className='flex flex-col items-start sm:text-left text-center -mb-1 uppercase space-y-2.5 '>
       {items.map(item => (
-        <Link href='products/clinical-chemistry' key={item}>
+        <Link href='' key={item}>
           <a>
             <span className='bg-blue-100 text-blue-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center'>
               <svg

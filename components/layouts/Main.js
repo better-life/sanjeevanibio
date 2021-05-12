@@ -5,10 +5,7 @@ import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
 
-const navigation = [
-  { name: 'Products & Services', href: '/products' },
-  { name: 'About Us', href: '/about' }
-]
+const navigation = [{ name: 'About Us', href: '/about' }]
 export default function MainLayout ({ children }) {
   return (
     <div>
@@ -51,6 +48,14 @@ export default function MainLayout ({ children }) {
                       </a>
                     </Link>
                   ))}
+                  <a href='https://wa.me/918779046716' target='blank'>
+                    <img
+                      className='inline'
+                      width='64'
+                      height='30'
+                      src='/whatsapplogo.png'
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -72,11 +77,17 @@ export default function MainLayout ({ children }) {
                 <div className='rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden'>
                   <div className='px-5 pt-4 flex items-center justify-between'>
                     <div>
-                      <img
-                        className='h-8 w-auto'
-                        src='https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg'
-                        alt=''
-                      />
+                      <Link href='/'>
+                        <a>
+                          <span className='sr-only'>Logo</span>
+                          <Image
+                            src='/logo.png'
+                            alt='logo'
+                            width='50'
+                            height='50'
+                          />
+                        </a>
+                      </Link>
                     </div>
                     <div className='-mr-2'>
                       <Popover.Button className='bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500'>
@@ -96,6 +107,19 @@ export default function MainLayout ({ children }) {
                         </a>
                       </Link>
                     ))}
+                    <a
+                      href='https://wa.me/918779046716'
+                      target='blank'
+                      className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'
+                    >
+                      <span className=''>Contact Us</span>
+                      <img
+                        className='inline'
+                        width='64'
+                        height='30'
+                        src='/whatsapplogo.png'
+                      />
+                    </a>
                   </div>
                 </div>
               </Popover.Panel>
