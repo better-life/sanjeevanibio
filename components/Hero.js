@@ -29,7 +29,7 @@ export default function Hero () {
                 <div className='rounded-md shadow'>
                   <a
                     href='https://wa.me/918779046716'
-                    target='blank'
+                    target='_blank'
                     className='w-full flex items-center justify-center px-8 py-3 
                     border border-transparent 
                     text-base 

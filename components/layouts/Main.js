@@ -48,7 +48,7 @@ export default function MainLayout ({ children }) {
                       </a>
                     </Link>
                   ))}
-                  <a href='https://wa.me/918779046716' target='blank'>
+                  <a href='https://wa.me/918779046716' target='_blank'>
                     <img
                       className='inline'
                       width='64'
@@ -109,7 +109,7 @@ export default function MainLayout ({ children }) {
                     ))}
                     <a
                       href='https://wa.me/918779046716'
-                      target='blank'
+                      target='_blank'
                       className='block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50'
                     >
                       <span className=''>Contact Us</span>
