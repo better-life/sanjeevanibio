@@ -50,7 +50,7 @@ export default function MainLayout ({ children }) {
                   ))}
                   <a href='https://wa.me/918779046716' target='_blank'>
                     <img
-                      className='inline'
+                      style={{ display: 'inline' }}
                       width='64'
                       height='30'
                       src='/whatsapplogo.png'
@@ -114,7 +114,7 @@ export default function MainLayout ({ children }) {
                     >
                       <span className=''>Contact Us</span>
                       <img
-                        className='inline'
+                        style={{ display: 'inline' }}
                         width='64'
                         height='30'
                         src='/whatsapplogo.png'
