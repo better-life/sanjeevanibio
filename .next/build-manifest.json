@@ -1,0 +1,66 @@
+{
+  "polyfillFiles": [
+    "static/chunks/polyfills-8683bd742a84c1edd48c.js"
+  ],
+  "devFiles": [],
+  "ampDevFiles": [],
+  "lowPriorityFiles": [
+    "static/ENaJUnRjKLwQ1qqJ59ywe/_buildManifest.js",
+    "static/ENaJUnRjKLwQ1qqJ59ywe/_ssgManifest.js"
+  ],
+  "pages": {
+    "/": [
+      "static/chunks/webpack-098dd71caea481f05fcf.js",
+      "static/chunks/framework-06ea86ba7880b55a5dd2.js",
+      "static/chunks/597-5bcc646947fd3c45f8af.js",
+      "static/chunks/778-20c3b793c32b7d4c1196.js",
+      "static/chunks/main-9ca82ec4d4aca520c43d.js",
+      "static/chunks/pages/index-b26cfa174cec4d6f98bd.js"
+    ],
+    "/_app": [
+      "static/chunks/webpack-098dd71caea481f05fcf.js",
+      "static/chunks/framework-06ea86ba7880b55a5dd2.js",
+      "static/chunks/597-5bcc646947fd3c45f8af.js",
+      "static/chunks/778-20c3b793c32b7d4c1196.js",
+      "static/chunks/main-9ca82ec4d4aca520c43d.js",
+      "static/chunks/675-a807ff1eeef93e69544a.js",
+      "static/chunks/8-5742ba62ec4e66e95dbe.js",
+      "static/css/675fefda6200ac4e2235.css",
+      "static/chunks/pages/_app-6cb55c5ea4feab3502c0.js"
+    ],
+    "/_error": [
+      "static/chunks/webpack-098dd71caea481f05fcf.js",
+      "static/chunks/framework-06ea86ba7880b55a5dd2.js",
+      "static/chunks/597-5bcc646947fd3c45f8af.js",
+      "static/chunks/778-20c3b793c32b7d4c1196.js",
+      "static/chunks/main-9ca82ec4d4aca520c43d.js",
+      "static/chunks/pages/_error-7bb836f9ac9cfd3bbefe.js"
+    ],
+    "/about": [
+      "static/chunks/webpack-098dd71caea481f05fcf.js",
+      "static/chunks/framework-06ea86ba7880b55a5dd2.js",
+      "static/chunks/597-5bcc646947fd3c45f8af.js",
+      "static/chunks/778-20c3b793c32b7d4c1196.js",
+      "static/chunks/main-9ca82ec4d4aca520c43d.js",
+      "static/chunks/675-a807ff1eeef93e69544a.js",
+      "static/chunks/pages/about-7a70ade0e563e6572fda.js"
+    ],
+    "/products": [
+      "static/chunks/webpack-098dd71caea481f05fcf.js",
+      "static/chunks/framework-06ea86ba7880b55a5dd2.js",
+      "static/chunks/597-5bcc646947fd3c45f8af.js",
+      "static/chunks/778-20c3b793c32b7d4c1196.js",
+      "static/chunks/main-9ca82ec4d4aca520c43d.js",
+      "static/chunks/pages/products-530711638388b51dd61c.js"
+    ],
+    "/products/clinical-chemistry": [
+      "static/chunks/webpack-098dd71caea481f05fcf.js",
+      "static/chunks/framework-06ea86ba7880b55a5dd2.js",
+      "static/chunks/597-5bcc646947fd3c45f8af.js",
+      "static/chunks/778-20c3b793c32b7d4c1196.js",
+      "static/chunks/main-9ca82ec4d4aca520c43d.js",
+      "static/chunks/pages/products/clinical-chemistry-fa7ea693efdff83fdca7.js"
+    ]
+  },
+  "ampFirstPages": []
+}
