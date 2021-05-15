@@ -140,7 +140,7 @@ export default function MainLayout ({ children }) {
               style={{ border: 0 }}
               allowFullScreen=''
               loading='lazy'
-              className='shadow'
+              className='shadow max-w-xs	md:max-w-md'
             ></iframe>
             <div className='w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left'>
               <p className='text-base leading-tight px-5'>
