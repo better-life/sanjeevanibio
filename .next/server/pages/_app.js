@@ -3310,7 +3310,7 @@ function MainLayout({
             className: "w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left",
             children: [/*#__PURE__*/(0,jsx_runtime_.jsxs)("p", {
               className: "text-base leading-tight px-5",
-              children: ["Door No 2, West Facing, Agathiyar Nagar Extension, ", /*#__PURE__*/jsx_runtime_.jsx("br", {}), "1st St, Kolathur, Chennai, ", /*#__PURE__*/jsx_runtime_.jsx("br", {}), " Tamil Nadu 600099, India"]
+              children: ["No. 9/5, Ground Floor, North Facing, 82nd Street, Ashok Nagar, Chennai 600018. ", /*#__PURE__*/jsx_runtime_.jsx("br", {}), "India"]
             }), /*#__PURE__*/jsx_runtime_.jsx("p", {
               className: "text-sm m-5",
               children: /*#__PURE__*/jsx_runtime_.jsx("a", {

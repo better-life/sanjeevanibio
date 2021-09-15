@@ -144,8 +144,9 @@ export default function MainLayout ({ children }) {
             ></iframe>
             <div className='w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left'>
               <p className='text-base leading-tight px-5'>
-                Door No 2, West Facing, Agathiyar Nagar Extension, <br />
-                1st St, Kolathur, Chennai, <br /> Tamil Nadu 600099, India
+                No. 9/5, Ground Floor, North Facing,
+                82nd Street, Ashok Nagar,
+                Chennai 600018. <br/>India
               </p>
               <p className='text-sm m-5'>
                 <a href='mailto:sanjeevanibt@gmail.com'>
