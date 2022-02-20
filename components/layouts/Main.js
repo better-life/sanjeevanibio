@@ -144,11 +144,17 @@ export default function MainLayout ({ children }) {
             ></iframe>
             <div className='w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left'>
               <p className='text-base leading-tight px-5'>
+              Sanjeevani Biotech, 41/538/C, P.K.C Complex,
+              Adampillikkavu road, N F Gate.
+              Tripunithura. Pin-682301.
+              </p>
+              <hr className='my-5'/>
+              <p className='text-base leading-tight px-5'>
                 No. 9/5, Ground Floor, North Facing,
                 82nd Street, Ashok Nagar,
                 Chennai 600018. <br/>India
               </p>
-              <p className='text-sm m-5'>
+              <p className='text-sm m-5 text-blue-500'>
                 <a href='mailto:sanjeevanibt@gmail.com'>
                   sanjeevanibt@gmail.com
                 </a>
